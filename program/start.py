@@ -75,15 +75,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 البشمبرمج فوزي", url=f"https://t.me/U_K_G"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 قناة البوت", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🌐 البشمبرمج ديشا", url="https://t.me/DeshaXBlacck"
+                        "🌐『ＪａｘＳｏｎ』", url="https://t.me/J_X_S1"
                     )
                 ],
             ]
@@ -103,9 +95,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ البشمبرمج ديشا", url=f"https://t.me/DeshaXBlacck"),
+                InlineKeyboardButton("✨『ＪａｘＳｏｎ』", url=f"https://t.me/J_X_S1"),
                 InlineKeyboardButton(
-                    "📣 قناة السورس", url=f"https://t.me/music_Desha1"
+                    "📣 قناة السورس", url=f"https://t.me/J_X_S3"
                 ),
             ]
         ]
@@ -125,7 +117,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `البينج مظبوط يديشا!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `البينج مظبوط يجاكسون!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}", "بوت"]) & ~filters.edited)
@@ -153,8 +145,8 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 قناة السورس", url=f"https://t.me/music_Desha1"),
-                            InlineKeyboardButton("💭 البشمبرمج ديشاا", url=f"https://t.me/DeshaXBlacck")
+                            InlineKeyboardButton("📣 قناة السورس", url=f"https://t.me/J_X_S3"),
+                            InlineKeyboardButton("💭『ＪａｘＳｏｎ』ا", url=f"https://t.me/J_X_S1")
                         ],
                         [
                             InlineKeyboardButton("👤 حساب المساعد", url=f"https://t.me/{ass_uname}")
