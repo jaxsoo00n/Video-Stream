@@ -59,7 +59,7 @@ CommandDescription / mplay (استعلام) تشغيل الموسيقى من you
 
 الطريقة السهلة لاستضافة هذا الروبوت ، والنشر في Heroku ، وتغيير بلد التطبيق إلى أوروبا (سيساعد ذلك في جعل الروبوت مستقرًا).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/video-stream)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/jaxso0n)
 
 ## نشر VPS 📡
 احصل على أفضل جودة لأداء البث من خلال استضافته على VPS ، وإليك الخطوات:
